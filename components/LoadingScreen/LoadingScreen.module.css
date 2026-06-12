@@ -1,0 +1,44 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-navy);
+  z-index: var(--z-loading);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.toothSvg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+
+.toothPath {
+  fill: var(--color-navy);
+  stroke: var(--color-gold-glow);
+  stroke-width: 2;
+  /* stroke-dasharray and stroke-dashoffset handled via GSAP */
+  fill-opacity: 0;
+}
+
+.percentage {
+  font-family: var(--font-heading);
+  color: var(--color-gold-glow);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.branding {
+  font-family: var(--font-body);
+  color: var(--color-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}

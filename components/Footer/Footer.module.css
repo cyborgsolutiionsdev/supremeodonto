@@ -1,0 +1,310 @@
+.footer {
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  color: #ffffff;
+  font-family: var(--font-body);
+}
+
+/* 1. Map container styling */
+.mapContainer {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mapIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 2. Main footer section styling (brand navy light) */
+.mainFooter {
+  background-color: var(--color-charcoal); /* Darker blue background */
+  padding: 3rem 0 3rem 0; /* Padding-top instead of margin-top to avoid color separation */
+  position: relative;
+  width: 100%;
+}
+
+/* 3. Logo Wrapper with Spacing */
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 0; /* Reset to 0 since spacing is handled by mainFooter padding-top */
+  z-index: 10;
+  margin-bottom: 2.5rem;
+}
+
+.logoCard {
+  background-color: var(--color-charcoal); /* Matches the darker footer background */
+  padding: 0.8rem 2.5rem;
+  border-radius: 50px; /* pill shape */
+  border: 2px solid var(--color-gold); /* elegant gold border */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  max-width: 170px;
+  height: auto;
+}
+
+/* 4. Content container */
+.contentContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 5. Social bar layout */
+.socialBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3.5rem;
+  gap: 2rem;
+}
+
+.socialLine {
+  flex: 1;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.socials {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  color: var(--color-navy);
+  border-radius: 8px; /* friendly rounded look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-3px);
+  background-color: var(--color-navy);
+  color: #ffffff;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
+
+/* 6. Columns section */
+.columns {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr 0.9fr;
+  gap: 5rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.colTitle {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.contactList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.925rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contactIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.contactList a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactList a:hover {
+  color: var(--color-gold-glow);
+}
+
+.linksList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.linksList li {
+  font-size: 0.925rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+/* Mockup lists styled bullet: dot separator */
+.linksList li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.linksList a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.linksList a:hover {
+  color: var(--color-gold-glow);
+}
+
+/* 7. Divider */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 2rem;
+}
+
+/* 8. Bottom bar styling */
+.bottomBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.copyright {
+  font-weight: 500;
+}
+
+.legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.legalLinks a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.legalLinks a:hover {
+  color: var(--color-gold-glow);
+}
+
+.legalSeparator {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.technicals {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: 0.5rem;
+}
+
+/* 9. Responsive overrides */
+@media (max-width: 992px) {
+  .columns {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapContainer {
+    height: 320px;
+  }
+
+  .mainFooter {
+    padding-top: 2rem;
+  }
+
+  .logoWrapper {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .linksList li {
+    padding-left: 0;
+  }
+
+  .linksList li::before {
+    display: none;
+  }
+
+  .contactList li {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .socialBar {
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .logoCard {
+    padding: 0.6rem 2rem;
+  }
+
+  .logoImg {
+    max-width: 140px;
+  }
+}
