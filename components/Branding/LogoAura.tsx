@@ -19,41 +19,46 @@ export function LogoAura({ className, light = false }: LogoAuraProps) {
       style={{ display: 'block', height: '100%', width: 'auto' }}
     >
       <defs>
-        <linearGradient id="gold-grad" x1="20" y1="12" x2="80" y2="88" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#E6C875" />
-          <stop offset="50%" stopColor="#AD9324" />
-          <stop offset="100%" stopColor="#806B13" />
+        <linearGradient id="gold-grad" x1="10" y1="10" x2="90" y2="70" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#F5E3B5" />
+          <stop offset="40%" stopColor="#D4AF37" />
+          <stop offset="70%" stopColor="#B38F24" />
+          <stop offset="100%" stopColor="#85640F" />
         </linearGradient>
       </defs>
       
-      {/* Icon (Monogram 'A') */}
+      {/* Icon (Elegant Thin Luxury Crest combining Monogram A and stylized tooth/arch) */}
       <path
-        d="M 50,12 C 40,12 22,50 20,76 C 18,90 28,88 35,88 C 45,88 47,80 50,60 C 53,80 55,88 65,88 C 72,88 82,90 80,76 C 78,50 60,12 50,12 Z M 50,30 C 53,42 56,54 58,62 C 54,64 46,64 42,62 C 44,54 47,42 50,30 Z"
+        d="M 50,15 L 24,73 C 26,71 31,71 34,71 L 40,71 C 42,71 44,68 46,55 C 54,55 56,71 58,71 L 64,71 C 67,71 72,71 74,73 L 48,15 Z"
+        fill="url(#gold-grad)"
+      />
+      <path
+        d="M 48,42 L 41,56 L 55,56 Z"
         fill="url(#gold-grad)"
       />
       
-      {/* Text "AURA" (Serif typography style) */}
+      {/* Text "AURA" (Premium Serif typeface) */}
       <text
         x="105"
-        y="44"
-        fontFamily="var(--font-heading)"
-        fontSize="34"
-        fontWeight="700"
+        y="45"
+        fontFamily="var(--font-heading), 'Cormorant Garamond', serif"
+        fontSize="36"
+        fontWeight="300"
         fill={textColor}
-        letterSpacing="0.08em"
+        letterSpacing="0.12em"
       >
         AURA
       </text>
 
-      {/* Text "ODONTOLOGIA" (Sans-serif typography style) */}
+      {/* Text "ODONTOLOGIA" (Sophisticated light sans-serif) */}
       <text
         x="107"
-        y="64"
-        fontFamily="var(--font-body)"
-        fontSize="11"
-        fontWeight="600"
+        y="63"
+        fontFamily="var(--font-body), 'Jost', sans-serif"
+        fontSize="10.5"
+        fontWeight="500"
         fill="var(--color-gold)"
-        letterSpacing="0.32em"
+        letterSpacing="0.4em"
       >
         ODONTOLOGIA
       </text>

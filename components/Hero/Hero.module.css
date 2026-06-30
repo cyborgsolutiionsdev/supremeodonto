@@ -199,6 +199,9 @@
   .heroSection {
     clip-path: none;
   }
+  .imageGradient {
+    background: linear-gradient(to bottom, rgba(5, 36, 64, 0.4) 0%, rgba(5, 36, 64, 0.75) 60%, #052440 100%);
+  }
   .content {
     padding: 2rem 1.5rem;
     justify-content: center;
