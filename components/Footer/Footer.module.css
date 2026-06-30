@@ -227,6 +227,13 @@
   font-weight: 500;
 }
 
+.developer {
+  font-size: 0.8rem;
+  color: var(--color-gold-glow);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
 .legalLinks {
   display: flex;
   align-items: center;

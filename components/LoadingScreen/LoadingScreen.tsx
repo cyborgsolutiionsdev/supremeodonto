@@ -86,7 +86,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
         <path
           ref={pathRef}
           className={styles.toothPath}
-          d="M30,20 C30,10 40,5 50,15 C60,5 70,10 70,20 C75,35 65,45 60,60 C55,75 55,85 55,90 C55,95 45,95 45,90 C45,85 45,75 40,60 C35,45 25,35 30,20 Z"
+          d="M 50,12 C 40,12 22,50 20,76 C 18,90 28,88 35,88 C 45,88 47,80 50,60 C 53,80 55,88 65,88 C 72,88 82,90 80,76 C 78,50 60,12 50,12 Z M 50,30 C 53,42 56,54 58,62 C 54,64 46,64 42,62 C 44,54 47,42 50,30 Z"
           strokeLinecap="round"
           strokeLinejoin="round"
         />

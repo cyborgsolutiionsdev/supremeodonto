@@ -7,6 +7,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './Footer.module.css';
 
+import { LogoAura } from '../Branding/LogoAura';
+
 gsap.registerPlugin(ScrollTrigger);
 
 export function Footer() {
@@ -56,14 +58,7 @@ export function Footer() {
         {/* Logo Overlapping Container */}
         <div className={styles.logoWrapper}>
           <div className={styles.logoCard}>
-            <Image
-              src="/images/logo-new.png"
-              alt="Aura Odontologia"
-              width={200}
-              height={60}
-              style={{ objectFit: 'contain' }}
-              className={styles.logoImg}
-            />
+            <LogoAura className={styles.logoImg} light={true} />
           </div>
         </div>
 
@@ -186,6 +181,9 @@ export function Footer() {
           <div className={styles.bottomBar}>
             <div className={styles.copyright}>
               Copyright © {new Date().getFullYear()} Aura Odontologia. Todos os direitos reservados.
+            </div>
+            <div className={styles.developer}>
+              Desenvolvido por: Alessandro Gonçalves - Soluções Digitais
             </div>
             <div className={styles.legalLinks}>
               <a href="/politica-de-privacidade">Política de Privacidade</a>

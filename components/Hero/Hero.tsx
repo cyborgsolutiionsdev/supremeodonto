@@ -7,6 +7,8 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import styles from './Hero.module.css';
 
+import { LogoAura } from '../Branding/LogoAura';
+
 gsap.registerPlugin(ScrollTrigger);
 
 interface HeroProps {
@@ -132,15 +134,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
         <div className={styles.textArea}>
           {/* Logo Graphic */}
           <div className={styles.logoGraphic} ref={logoGraphicRef}>
-            <Image
-              src="/images/logo-new.png"
-              alt="Aura Odontologia Logo"
-              width={680}
-              height={240}
-              style={{ objectFit: 'contain' }}
-              priority
-              className={styles.logoGraphicImg}
-            />
+            <LogoAura className={styles.logoGraphicImg} light={true} />
           </div>
 
           {/* Tagline */}

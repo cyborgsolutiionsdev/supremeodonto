@@ -34,19 +34,19 @@ const supportingTeam = [
     nome: 'Tatiana Souza',
     cargo: 'Coordenadora Financeira',
     detalhe: 'Planejamento e Convênios',
-    imagem: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
+    imagem: '/images/tatiana.jpg',
   },
   {
     nome: 'Claudio Mello',
     cargo: 'Recepcionista Head',
     detalhe: 'Atendimento & Agenda',
-    imagem: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop',
+    imagem: '/images/claudio.jpg',
   },
   {
     nome: 'Marcos Santos',
     cargo: 'Auxiliar de Saúde Bucal',
     detalhe: 'Suporte Clínico & ASB',
-    imagem: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
+    imagem: '/images/marcos.jpg',
   }
 ];
 

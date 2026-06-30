@@ -59,6 +59,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://auraodontologia.com.br',
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
