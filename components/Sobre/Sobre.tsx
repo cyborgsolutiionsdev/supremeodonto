@@ -122,10 +122,10 @@ export function Sobre({ doctorImageSrc, doctorImageAlt }: SobreProps) {
           </h2>
           
           <p className={styles.paragraph} ref={el => { parasRef.current[0] = el; }}>
-            A Supreme nasceu de um sonho que nós, Dr. Lucas Corrêa de Medeiros e Dr. Antonio Pedro Tolentino, compartilhamos desde a faculdade: criar uma clínica onde o atendimento fosse realmente sobre pessoas — e não só sobre dentes. Durante a graduação, víamos de perto como o atendimento odontológico podia ser impessoal e distante, e sabíamos que era possível fazer diferente.
+            A Supreme nasceu de um sonho que nós, Dr. Roberto Silva Santos e Dr. Carlos Eduardo Costa, compartilhamos desde a faculdade: criar uma clínica onde o atendimento fosse realmente sobre pessoas — e não só sobre dentes. Durante a graduação, víamos de perto como o atendimento odontológico podia ser impessoal e distante, e sabíamos que era possível fazer diferente.
           </p>
           <p className={styles.paragraph} ref={el => { parasRef.current[1] = el; }}>
-            Quando surgiu a oportunidade de assumir a clínica no bairro Pagani, em Palhoça, a decisão foi imediata. Queríamos construir um espaço acolhedor, onde o paciente se sentisse em casa, fosse ouvido e tivesse acompanhamento real. Hoje, cada detalhe da Supreme Odontologia reflete esse propósito: da tecnologia digital às salas climatizadas, tudo foi planejado para tornar o seu atendimento mais leve, humano e verdadeiro.
+            Quando surgiu a oportunidade de montar a nossa clínica no Centro de Florianópolis, a decisão foi imediata. Queríamos construir um espaço acolhedor, onde o paciente se sentisse em casa, fosse ouvido e tivesse acompanhamento real. Hoje, cada detalhe da Supreme Odontologia reflete esse propósito: da tecnologia digital às salas climatizadas, tudo foi planejado para tornar o seu atendimento mais leve, humano e verdadeiro.
           </p>
           
           <div className={styles.doctorCard} ref={doctorCardRef}>
@@ -138,9 +138,9 @@ export function Sobre({ doctorImageSrc, doctorImageAlt }: SobreProps) {
               />
             </div>
             <div className={styles.doctorInfo}>
-              <span className={styles.doctorName}>Dr. Lucas & Dr. Antonio Pedro</span>
+              <span className={styles.doctorName}>Dr. Roberto & Dr. Carlos Eduardo</span>
               <span className={styles.doctorSpec}>Fundadores & Responsáveis Clínicos</span>
-              <span className={styles.doctorSocial}>@supremeodontologiasc</span>
+              <span className={styles.doctorSocial}>@supremeodontologia.demo</span>
             </div>
           </div>
         </div>

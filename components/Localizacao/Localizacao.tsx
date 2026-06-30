@@ -73,7 +73,7 @@ export function Localizacao() {
         {/* Left Side: Map Embed */}
         <div className={styles.mapWrapper} ref={mapRef}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.6989445100067!2d-48.66532432367468!3d-27.633857576226107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735748aebdf87%3A0xe54d92cd9d99dbdf!2sAv.%20At%C3%ADlio%20Pedro%20Pagani%2C%201109%20-%20Pagani%2C%20Palho%C3%A7a%20-%20SC%2C%2088132-149!5e0!3m2!1spt-BR!2sbr!4v1718105000000!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56566.273617300435!2d-48.591522030018596!3d-27.59690387532353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394ef37a0db1%3A0x10f3b438b25e7960!2sFlorian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1718105000000!5m2!1spt-BR!2sbr"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -102,8 +102,8 @@ export function Localizacao() {
               </div>
               <div className={styles.textCol}>
                 <h3>Endereço</h3>
-                <p>Av. Atílio Pedro Pagani, nº 1109</p>
-                <p>Pagani, Palhoça - SC, 88132-149</p>
+                <p>Av. das Flores, nº 1200</p>
+                <p>Centro, Florianópolis - SC, 88010-000</p>
               </div>
             </div>
 
@@ -122,7 +122,7 @@ export function Localizacao() {
               <div className={styles.textCol}>
                 <h3>Contato</h3>
                 <p>Telefone / WhatsApp: (48) 99119-0203</p>
-                <p>E-mail: supremeodontologiasc@gmail.com</p>
+                <p>E-mail: contato@supremeodontologia.demo</p>
               </div>
             </div>
 
@@ -155,7 +155,7 @@ export function Localizacao() {
             }}
           >
             <a
-              href="https://maps.google.com/?q=Av.+Atílio+Pedro+Pagani,+1109+-+Pagani,+Palhoça+-+SC,+88132-149"
+              href="https://maps.google.com/?q=Florianopolis,+SC"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnPrimary}

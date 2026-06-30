@@ -39,7 +39,7 @@ export function Footer() {
       {/* 1. Map Section at the top */}
       <div className={styles.mapContainer}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.6989445100067!2d-48.66532432367468!3d-27.633857576226107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952735748aebdf87%3A0xe54d92cd9d99dbdf!2sAv.%20At%C3%ADlio%20Pedro%20Pagani%2C%201109%20-%20Pagani%2C%20Palho%C3%A7a%20-%20SC%2C%2088132-149!5e0!3m2!1spt-BR!2sbr!4v1718105000000!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56566.273617300435!2d-48.591522030018596!3d-27.59690387532353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394ef37a0db1%3A0x10f3b438b25e7960!2sFlorian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1718105000000!5m2!1spt-BR!2sbr"
           width="100%"
           height="450"
           style={{ border: 0 }}
@@ -123,8 +123,8 @@ export function Footer() {
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                   <span>
-                    Av. Atílio Pedro Pagani, 1109<br />
-                    Pagani, Palhoça - SC, 88132-149
+                    Av. das Flores, 1200<br />
+                    Centro, Florianópolis - SC, 88010-000
                   </span>
                 </li>
                 <li>
@@ -132,7 +132,7 @@ export function Footer() {
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
-                  <a href="mailto:supremeodontologiasc@gmail.com">supremeodontologiasc@gmail.com</a>
+                  <a href="mailto:contato@supremeodontologia.demo">contato@supremeodontologia.demo</a>
                 </li>
                 <li>
                   <svg className={styles.contactIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -195,7 +195,7 @@ export function Footer() {
               <a href="/termos">Termos & Condições</a>
             </div>
             <div className={styles.technicals}>
-              Resp. Técnicos: Dr. Lucas Corrêa de Medeiros (CRO-SC Pendente) & Dr. Antonio Pedro Tolentino (CRO-SC Pendente)
+              Resp. Técnicos: Dr. Roberto Silva Santos (CRO-SC 12345) & Dr. Carlos Eduardo Costa (CRO-SC 54321)
             </div>
           </div>
         </div>

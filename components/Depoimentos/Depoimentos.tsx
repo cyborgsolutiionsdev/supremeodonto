@@ -13,32 +13,32 @@ const depoimentos = [
   {
     nome: 'Ana Carolina Silva',
     nota: 5,
-    texto: 'Fiz minhas facetas de porcelana com a Dra. Fernanda e o resultado superou todas as minhas expectativas. O atendimento foi impecável do início ao fim, e o meu sorriso ficou extremamente natural. Recomendo de olhos fechados!',
-    avatar: '/images/avatar_patient_1.png',
+    texto: 'Fiz minhas facetas de porcelana com a Dra. Beatriz e o resultado superou todas as minhas expectativas. O atendimento foi impecável do início ao fim, e o meu sorriso ficou extremamente natural. Recomendo de olhos fechados!',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
   },
   {
     nome: 'Marcos Tolentino',
     nota: 5,
-    texto: 'Clínica fantástica em Palhoça. O Dr. Lucas realizou o meu tratamento de implante dentário com muita precisão e paciência, tirando todas as minhas dúvidas. Tecnologia de ponta e ambiente muito acolhedor.',
-    avatar: '/images/avatar_patient_2.png',
+    texto: 'Clínica fantástica em Florianópolis. O Dr. Roberto realizou o meu tratamento de implante dentário com muita precisão e paciência, tirando todas as minhas dúvidas. Tecnologia de ponta e ambiente muito acolhedor.',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop',
   },
   {
     nome: 'Juliana Ramos',
     nota: 5,
-    texto: 'Fiz clareamento dental a laser e achei excelente! Não senti nenhuma sensibilidade e o resultado ficou lindo. A equipe é super atenciosa e o Dr. Antonio Pedro foi extremamente profissional.',
-    avatar: '/images/avatar_patient_3.png',
+    texto: 'Fiz clareamento dental a laser e achei excelente! Não senti nenhuma sensibilidade e o resultado ficou lindo. A equipe é super atenciosa e o Dr. Carlos Eduardo foi extremamente profissional.',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop',
   },
   {
     nome: 'Camila Ferreira',
     nota: 5,
     texto: 'Excelente experiência! O atendimento é humanizado e a clínica é super moderna. Fiz uma limpeza profunda e profilaxia, tudo muito tranquilo e sem dor. Voltarei com certeza!',
-    avatar: '/images/avatar_patient_1.png',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
   },
   {
     nome: 'Rafael Medeiros',
     nota: 5,
-    texto: 'Gostaria de parabenizar toda a equipe da Supreme Odontologia. Realizei a extração do siso com o Dr. Antonio Pedro, foi super rápido e a recuperação foi excelente graças aos cuidados dele.',
-    avatar: '/images/avatar_patient_3.png',
+    texto: 'Gostaria de parabenizar toda a equipe da Supreme Odontologia. Realizei a extração do siso com o Dr. Carlos Eduardo, foi super rápido e a recuperação foi excelente graças aos cuidados dele.',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop',
   }
 ];
 

@@ -110,7 +110,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
     <section className={styles.heroSection} ref={containerRef} role="region" aria-labelledby="hero-tagline">
       <div className={styles.imageArea}>
         <Image 
-          src="/images/BG.png"
+          src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1470&auto=format&fit=crop"
           alt="Consultório Supreme Odontologia"
           fill
           priority

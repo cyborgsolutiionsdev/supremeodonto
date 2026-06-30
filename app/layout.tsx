@@ -20,9 +20,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: 'Supreme Odontologia | Estética Dental em Palhoça - SC',
+  title: 'Supreme Odontologia | Estética Dental de Alta Performance',
   description:
-    'Transforme seu sorriso com a melhor odontologia estética de Palhoça. Lentes de contato dental em sessão única, clareamento, implantes e harmonização orofacial no Pagani.',
+    'Descubra a Supreme Odontologia. Lentes de contato, implantes e reabilitação oral com tecnologia digital avançada em nosso mostruário de especialidades.',
   keywords: [
     'odontologia',
     'estética dental',
@@ -30,33 +30,31 @@ export const metadata: Metadata = {
     'clareamento dental',
     'harmonização orofacial',
     'implante dentário',
-    'Palhoça',
-    'Pagani',
-    'dentista Palhoça',
-    'Dra Fernanda Fernandes',
+    'Florianópolis',
+    'mostruário',
   ],
-  authors: [{ name: 'Dra. Fernanda Fernandes de Souza Bastos' }],
+  authors: [{ name: 'Clínica Supreme Odontologia' }],
   creator: 'Supreme Odontologia',
   openGraph: {
-    title: 'Supreme Odontologia | Estética Dental em Palhoça - SC',
+    title: 'Supreme Odontologia | Estética Dental de Alta Performance',
     description:
-      'Lentes de contato dental ultrafinas sem desgaste em sessão única. Dra. Fernanda Fernandes no coração do Pagani.',
+      'Lentes de contato dental ultrafinas sem desgaste em sessão única. Dra. Beatriz Fernandes em nosso espaço clínico fictício.',
     url: 'https://supremeodontologia.com.br', // Example domain
     siteName: 'Supreme Odontologia',
     locale: 'pt_BR',
     type: 'website',
     images: [
       {
-        url: 'https://supremeodontologia.com.br/images/hero-medicos.jpg',
+        url: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
         width: 1200,
         height: 630,
-        alt: 'Dra. Fernanda Fernandes e equipe da Supreme Odontologia',
+        alt: 'Dra. Beatriz Fernandes e equipe da Supreme Odontologia',
       },
     ],
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
   alternates: {
     canonical: 'https://supremeodontologia.com.br',
@@ -79,23 +77,23 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Dentist',
               name: 'Supreme Odontologia',
-              image: 'https://supremeodontologia.com.br/images/hero-medicos.jpg',
+              image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
               '@id': 'https://supremeodontologia.com.br/#dentist',
               url: 'https://supremeodontologia.com.br',
               telephone: '+5548991190203',
               priceRange: '$$',
               address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Av. Atílio Pedro Pagani, nº 1109',
-                addressLocality: 'Palhoça',
-                addressRegion: 'SC',
-                postalCode: '88132-149',
+                streetAddress: 'Av. das Flores, nº 1200',
+                addressLocality: 'Centro',
+                addressRegion: 'Florianópolis - SC',
+                postalCode: '88010-000',
                 addressCountry: 'BR',
               },
               geo: {
                 '@type': 'GeoCoordinates',
-                latitude: -27.6338,
-                longitude: -48.6653,
+                latitude: -27.5969,
+                longitude: -48.5915,
               },
               openingHoursSpecification: [
                 {

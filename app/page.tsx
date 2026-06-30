@@ -23,13 +23,13 @@ export default function Home() {
         <>
           <main>
             <Hero
-              heroImageSrc="/images/hero-medicos.jpg"
-              heroImageAlt="Dr. Lucas Corrêa e Dr. Antonio Pedro na Supreme Odontologia"
+              heroImageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop"
+              heroImageAlt="Dr. Roberto Silva e Dr. Carlos Eduardo na Supreme Odontologia"
             />
             <DiferencialBar />
             <Sobre
-              doctorImageSrc="/images/hero-medicos.jpg"
-              doctorImageAlt="Dr. Lucas & Dr. Antonio Pedro Tolentino"
+              doctorImageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop"
+              doctorImageAlt="Dr. Roberto & Dr. Carlos Eduardo"
             />
             <Servicos />
             <Depoimentos />

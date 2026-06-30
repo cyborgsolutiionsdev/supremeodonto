@@ -10,14 +10,14 @@ import styles from './Equipe.module.css';
 gsap.registerPlugin(ScrollTrigger);
 
 const unifiedLead = {
-  nome: 'Dr. Lucas & Dr. Antonio Pedro',
+  nome: 'Dr. Roberto & Dr. Carlos Eduardo',
   cargo: 'Dentistas / Sócios-Fundadores',
-  cro: 'CRO-SC (Pendentes)',
-  imagem: '/images/hero-medicos.jpg',
-  instagram: '@supremeodontologiasc',
-  whatsapp: 'https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20os%20Dr.%20Lucas%20e%20Dr.%20Antonio%20Pedro.',
+  cro: 'CRO-SC 12345',
+  imagem: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
+  instagram: '@supremeodontologia.demo',
+  whatsapp: 'https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20os%20Dr.%20Roberto%20e%20Dr.%20Carlos%20Eduardo.',
   bios: [
-    'A Supreme Odontologia nasceu de um sonho compartilhado desde a faculdade pelos doutores Lucas Corrêa de Medeiros e Antonio Pedro Tolentino: criar uma clínica de alto padrão focada no bem-estar real das pessoas, onde o atendimento fosse leve, humano e transparente.',
+    'A Supreme Odontologia nasceu de um sonho compartilhado desde a faculdade pelos doutores Roberto Silva Santos e Carlos Eduardo Costa: criar uma clínica de alto padrão focada no bem-estar real das pessoas, onde o atendimento fosse leve, humano e transparente.',
     'Unindo suas especialidades em estética avançada, reabilitação oral e ortodontia moderna, os doutores integram sensibilidade clínica e tecnologia digital de ponta (como o scanner 3D e raio-x digital) para planejar e executar sorrisos com precisão e máximo conforto.',
     'Na Supreme, cada etapa do seu tratamento é planejada e executada diretamente pelos fundadores, garantindo proximidade, segurança e a certeza de que você nunca estará sozinho na sua jornada de transformação.'
   ]
@@ -25,28 +25,28 @@ const unifiedLead = {
 
 const supportingTeam = [
   {
-    nome: 'Dra. Fernanda Fernandes',
+    nome: 'Dra. Beatriz Fernandes',
     cargo: 'Dentista Especialista',
     detalhe: 'Estética Dental & Próteses',
-    imagem: '/images/dra-fernanda.jpg',
+    imagem: 'https://images.unsplash.com/photo-1594824813573-246434de83fb?q=80&w=600&auto=format&fit=crop',
   },
   {
-    nome: 'Tatiana Gevargiz',
+    nome: 'Tatiana Souza',
     cargo: 'Coordenadora Financeira',
     detalhe: 'Planejamento e Convênios',
-    imagem: '/images/avatar_patient_1.png',
+    imagem: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop',
   },
   {
-    nome: 'Claudio Pedroza',
+    nome: 'Claudio Mello',
     cargo: 'Recepcionista Head',
     detalhe: 'Atendimento & Agenda',
-    imagem: '/images/avatar_patient_2.png',
+    imagem: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop',
   },
   {
-    nome: 'Marcos Cardoway',
+    nome: 'Marcos Santos',
     cargo: 'Auxiliar de Saúde Bucal',
     detalhe: 'Suporte Clínico & ASB',
-    imagem: '/images/avatar_patient_3.png',
+    imagem: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
   }
 ];
 
@@ -193,7 +193,7 @@ export function Equipe() {
                       alt={member.nome}
                       fill
                       sizes="(max-width: 768px) 150px, 200px"
-                      className={member.nome === 'Dra. Fernanda Fernandes' ? styles.draFernandaImage : styles.organicImage}
+                      className={member.nome === 'Dra. Beatriz Fernandes' ? styles.draFernandaImage : styles.organicImage}
                     />
                   </div>
                 </div>
