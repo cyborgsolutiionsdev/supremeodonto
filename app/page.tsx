@@ -23,12 +23,12 @@ export default function Home() {
         <>
           <main>
             <Hero
-              heroImageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop"
+              heroImageSrc="/images/doctors-lead.jpg"
               heroImageAlt="Dr. Roberto Silva e Dr. Carlos Eduardo na Aura Odontologia"
             />
             <DiferencialBar />
             <Sobre
-              doctorImageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop"
+              doctorImageSrc="/images/doctors-lead.jpg"
               doctorImageAlt="Dr. Roberto & Dr. Carlos Eduardo"
             />
             <Servicos />

@@ -13,7 +13,7 @@ const unifiedLead = {
   nome: 'Dr. Roberto & Dr. Carlos Eduardo',
   cargo: 'Dentistas / Sócios-Fundadores',
   cro: 'CRO-SC 12345',
-  imagem: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
+  imagem: '/images/doctors-lead.jpg',
   instagram: '@auraodontologia.demo',
   whatsapp: 'https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20os%20Dr.%20Roberto%20e%20Dr.%20Carlos%20Eduardo.',
   bios: [
@@ -28,7 +28,7 @@ const supportingTeam = [
     nome: 'Dra. Beatriz Fernandes',
     cargo: 'Dentista Especialista',
     detalhe: 'Estética Dental & Próteses',
-    imagem: 'https://images.unsplash.com/photo-1594824813573-246434de83fb?q=80&w=600&auto=format&fit=crop',
+    imagem: '/images/doctor-beatriz.jpg',
   },
   {
     nome: 'Tatiana Souza',

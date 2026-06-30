@@ -57,7 +57,7 @@ export function Footer() {
         <div className={styles.logoWrapper}>
           <div className={styles.logoCard}>
             <Image
-              src="/images/LOGO.png"
+              src="/images/logo-new.png"
               alt="Aura Odontologia"
               width={200}
               height={60}

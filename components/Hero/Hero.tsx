@@ -110,7 +110,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
     <section className={styles.heroSection} ref={containerRef} role="region" aria-labelledby="hero-tagline">
       <div className={styles.imageArea}>
         <Image 
-          src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1470&auto=format&fit=crop"
+          src="/images/clinica-bg.jpg"
           alt="Consultório Aura Odontologia"
           fill
           priority
@@ -133,7 +133,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
           {/* Logo Graphic */}
           <div className={styles.logoGraphic} ref={logoGraphicRef}>
             <Image
-              src="/images/LOGO.png"
+              src="/images/logo-new.png"
               alt="Aura Odontologia Logo"
               width={680}
               height={240}
