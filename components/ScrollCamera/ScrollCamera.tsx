@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 const cameraImages = [
   {
     src: '/images/clinica-01.jpg',
-    alt: 'Consultório Moderno e Confortável da Supreme Odontologia',
+    alt: 'Consultório Moderno e Confortável da Aura Odontologia',
     title: 'Estrutura Premium',
   },
   {

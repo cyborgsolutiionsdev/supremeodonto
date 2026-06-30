@@ -116,16 +116,16 @@ export function Sobre({ doctorImageSrc, doctorImageAlt }: SobreProps) {
         </div>
         
         <div className={styles.textContent}>
-          <span className={styles.badge} ref={badgeRef}>Nossa História</span>
           <h2 className={styles.headline} ref={headlineRef}>
+            <span className={styles.eyebrow} ref={badgeRef}>Nossa História</span>
             Uma clínica construída sobre amizade e propósito
           </h2>
           
           <p className={styles.paragraph} ref={el => { parasRef.current[0] = el; }}>
-            A Supreme nasceu de um sonho que nós, Dr. Roberto Silva Santos e Dr. Carlos Eduardo Costa, compartilhamos desde a faculdade: criar uma clínica onde o atendimento fosse realmente sobre pessoas — e não só sobre dentes. Durante a graduação, víamos de perto como o atendimento odontológico podia ser impessoal e distante, e sabíamos que era possível fazer diferente.
+            A Aura nasceu de um sonho que nós, Dr. Roberto Silva Santos e Dr. Carlos Eduardo Costa, compartilhamos desde a faculdade: criar uma clínica onde o atendimento fosse realmente sobre pessoas — e não só sobre dentes. Durante a graduação, víamos de perto como o atendimento odontológico podia ser impessoal e distante, e sabíamos que era possível fazer diferente.
           </p>
           <p className={styles.paragraph} ref={el => { parasRef.current[1] = el; }}>
-            Quando surgiu a oportunidade de montar a nossa clínica no Centro de Florianópolis, a decisão foi imediata. Queríamos construir um espaço acolhedor, onde o paciente se sentisse em casa, fosse ouvido e tivesse acompanhamento real. Hoje, cada detalhe da Supreme Odontologia reflete esse propósito: da tecnologia digital às salas climatizadas, tudo foi planejado para tornar o seu atendimento mais leve, humano e verdadeiro.
+            Quando surgiu a oportunidade de montar a nossa clínica no Centro de Florianópolis, a decisão foi imediata. Queríamos construir um espaço acolhedor, onde o paciente se sentisse em casa, fosse ouvido e tivesse acompanhamento real. Hoje, cada detalhe da Aura Odontologia reflete esse propósito: da tecnologia digital às salas climatizadas, tudo foi planejado para tornar o seu atendimento mais leve, humano e verdadeiro.
           </p>
           
           <div className={styles.doctorCard} ref={doctorCardRef}>
@@ -140,7 +140,7 @@ export function Sobre({ doctorImageSrc, doctorImageAlt }: SobreProps) {
             <div className={styles.doctorInfo}>
               <span className={styles.doctorName}>Dr. Roberto & Dr. Carlos Eduardo</span>
               <span className={styles.doctorSpec}>Fundadores & Responsáveis Clínicos</span>
-              <span className={styles.doctorSocial}>@supremeodontologia.demo</span>
+              <span className={styles.doctorSocial}>@auraodontologia.demo</span>
             </div>
           </div>
         </div>

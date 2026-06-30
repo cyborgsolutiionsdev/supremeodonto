@@ -111,7 +111,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
       <div className={styles.imageArea}>
         <Image 
           src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1470&auto=format&fit=crop"
-          alt="Consultório Supreme Odontologia"
+          alt="Consultório Aura Odontologia"
           fill
           priority
           style={{ objectFit: 'cover' }}
@@ -134,7 +134,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
           <div className={styles.logoGraphic} ref={logoGraphicRef}>
             <Image
               src="/images/LOGO.png"
-              alt="Supreme Odontologia Logo"
+              alt="Aura Odontologia Logo"
               width={680}
               height={240}
               style={{ objectFit: 'contain' }}
@@ -150,7 +150,7 @@ export function Hero({ heroImageSrc, heroImageAlt }: HeroProps) {
           </div>
           
           <div className={styles.ctas} ref={ctasRef}>
-            <a href="https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento%20na%20Supreme%20Odontologia." className={styles.ctaPrimary} target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento%20na%20Aura%20Odontologia." className={styles.ctaPrimary} target="_blank" rel="noopener noreferrer">
               AGENDAR UMA CONSULTA
             </a>
           </div>

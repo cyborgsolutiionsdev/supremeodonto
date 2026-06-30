@@ -20,9 +20,9 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: 'Supreme Odontologia | Estética Dental de Alta Performance',
+  title: 'Aura Odontologia | Estética Dental de Alta Performance',
   description:
-    'Descubra a Supreme Odontologia. Lentes de contato, implantes e reabilitação oral com tecnologia digital avançada em nosso mostruário de especialidades.',
+    'Descubra a Aura Odontologia. Lentes de contato, implantes e reabilitação oral com tecnologia digital avançada em nosso mostruário de especialidades.',
   keywords: [
     'odontologia',
     'estética dental',
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     'Florianópolis',
     'mostruário',
   ],
-  authors: [{ name: 'Clínica Supreme Odontologia' }],
-  creator: 'Supreme Odontologia',
+  authors: [{ name: 'Clínica Aura Odontologia' }],
+  creator: 'Aura Odontologia',
   openGraph: {
-    title: 'Supreme Odontologia | Estética Dental de Alta Performance',
+    title: 'Aura Odontologia | Estética Dental de Alta Performance',
     description:
       'Lentes de contato dental ultrafinas sem desgaste em sessão única. Dra. Beatriz Fernandes em nosso espaço clínico fictício.',
-    url: 'https://supremeodontologia.com.br', // Example domain
-    siteName: 'Supreme Odontologia',
+    url: 'https://auraodontologia.com.br', // Example domain
+    siteName: 'Aura Odontologia',
     locale: 'pt_BR',
     type: 'website',
     images: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
         width: 1200,
         height: 630,
-        alt: 'Dra. Beatriz Fernandes e equipe da Supreme Odontologia',
+        alt: 'Dra. Beatriz Fernandes e equipe da Aura Odontologia',
       },
     ],
   },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     follow: false,
   },
   alternates: {
-    canonical: 'https://supremeodontologia.com.br',
+    canonical: 'https://auraodontologia.com.br',
   },
 };
 
@@ -76,10 +76,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Dentist',
-              name: 'Supreme Odontologia',
+              name: 'Aura Odontologia',
               image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
-              '@id': 'https://supremeodontologia.com.br/#dentist',
-              url: 'https://supremeodontologia.com.br',
+              '@id': 'https://auraodontologia.com.br/#dentist',
+              url: 'https://auraodontologia.com.br',
               telephone: '+5548991190203',
               priceRange: '$$',
               address: {
@@ -110,8 +110,8 @@ export default function RootLayout({
                 },
               ],
               sameAs: [
-                'https://instagram.com/supremeodontologiasc',
-                'https://facebook.com/supremeodontologiasc',
+                'https://instagram.com/auraodontologiasc',
+                'https://facebook.com/auraodontologiasc',
               ],
             }),
           }}

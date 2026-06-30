@@ -96,7 +96,7 @@ export function CTAFlutuante() {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       aria-label="Entrar em contato pelo WhatsApp"
-      title="WhatsApp Supreme Odontologia"
+      title="WhatsApp Aura Odontologia"
     >
       <div ref={ringRef} className={styles.pulseRing} />
       <span className={styles.tooltip}>Falar agora</span>

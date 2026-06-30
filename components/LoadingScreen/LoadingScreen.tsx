@@ -74,7 +74,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
       className={styles.container} 
       ref={containerRef}
       role="status"
-      aria-label="Carregando Supreme Odontologia"
+      aria-label="Carregando Aura Odontologia"
     >
       <svg 
         className={styles.toothSvg}
@@ -92,7 +92,7 @@ export function LoadingScreen({ onComplete }: LoadingScreenProps) {
         />
       </svg>
       <div className={styles.percentage}>{percent}%</div>
-      <div className={styles.branding}>Supreme Odontologia</div>
+      <div className={styles.branding}>Aura Odontologia</div>
     </div>
   );
 }

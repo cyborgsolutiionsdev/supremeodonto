@@ -15,14 +15,14 @@ const categoriasServicos = [
     titulo: 'Odontologia Geral',
     descricao: 'Check-ups de rotina, limpezas profiláticas e cuidados preventivos para manter a saúde bucal da sua família sempre em dia.',
     imgSrc: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?q=80&w=600&auto=format&fit=crop',
-    imgAlt: 'Consulta odontológica de rotina na Supreme Odontologia',
+    imgAlt: 'Consulta odontológica de rotina na Aura Odontologia',
   },
   {
     id: 'cosmetic',
     titulo: 'Odontologia Estética',
     descricao: 'Transformação do sorriso com lentes de contato dental ultrafinas, facetas de porcelana e clareamento dental seguro e sem sensibilidade.',
     imgSrc: 'https://images.unsplash.com/photo-1468495244123-6c6c332eeece?q=80&w=600&auto=format&fit=crop',
-    imgAlt: 'Sorriso estético transformado na Supreme Odontologia',
+    imgAlt: 'Sorriso estético transformado na Aura Odontologia',
   },
   {
     id: 'rehabilitation',

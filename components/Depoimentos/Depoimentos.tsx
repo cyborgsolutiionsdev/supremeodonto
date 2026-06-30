@@ -37,7 +37,7 @@ const depoimentos = [
   {
     nome: 'Rafael Medeiros',
     nota: 5,
-    texto: 'Gostaria de parabenizar toda a equipe da Supreme Odontologia. Realizei a extração do siso com o Dr. Carlos Eduardo, foi super rápido e a recuperação foi excelente graças aos cuidados dele.',
+    texto: 'Gostaria de parabenizar toda a equipe da Aura Odontologia. Realizei a extração do siso com o Dr. Carlos Eduardo, foi super rápido e a recuperação foi excelente graças aos cuidados dele.',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop',
   }
 ];
@@ -191,7 +191,7 @@ export function Depoimentos() {
             <span className={styles.badgeStars}>★★★★★</span>
           </div>
           <a
-            href="https://maps.google.com/?q=Supreme+Odontologia+Palhoca"
+            href="https://maps.google.com/?q=Aura+Odontologia+Palhoca"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.viewReviewsBtn}

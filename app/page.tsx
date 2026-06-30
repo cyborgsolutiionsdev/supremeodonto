@@ -24,7 +24,7 @@ export default function Home() {
           <main>
             <Hero
               heroImageSrc="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop"
-              heroImageAlt="Dr. Roberto Silva e Dr. Carlos Eduardo na Supreme Odontologia"
+              heroImageAlt="Dr. Roberto Silva e Dr. Carlos Eduardo na Aura Odontologia"
             />
             <DiferencialBar />
             <Sobre

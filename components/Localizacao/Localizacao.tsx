@@ -80,7 +80,7 @@ export function Localizacao() {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Localização da Supreme Odontologia no Google Maps"
+            title="Localização da Aura Odontologia no Google Maps"
           />
         </div>
 
@@ -122,7 +122,7 @@ export function Localizacao() {
               <div className={styles.textCol}>
                 <h3>Contato</h3>
                 <p>Telefone / WhatsApp: (48) 99119-0203</p>
-                <p>E-mail: contato@supremeodontologia.demo</p>
+                <p>E-mail: contato@auraodontologia.demo</p>
               </div>
             </div>
 

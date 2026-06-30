@@ -46,7 +46,7 @@ export function Footer() {
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Supreme Odontologia no Google Maps"
+          title="Aura Odontologia no Google Maps"
           className={styles.mapIframe}
         />
       </div>
@@ -58,7 +58,7 @@ export function Footer() {
           <div className={styles.logoCard}>
             <Image
               src="/images/LOGO.png"
-              alt="Supreme Odontologia"
+              alt="Aura Odontologia"
               width={200}
               height={60}
               style={{ objectFit: 'contain' }}
@@ -73,7 +73,7 @@ export function Footer() {
             <div className={styles.socialLine} />
             <div className={styles.socials}>
               <a
-                href="https://facebook.com/supremeodontologiasc"
+                href="https://facebook.com/auraodontologiasc"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -83,7 +83,7 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com/supremeodontologiasc"
+                href="https://instagram.com/auraodontologiasc"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -132,7 +132,7 @@ export function Footer() {
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
-                  <a href="mailto:contato@supremeodontologia.demo">contato@supremeodontologia.demo</a>
+                  <a href="mailto:contato@auraodontologia.demo">contato@auraodontologia.demo</a>
                 </li>
                 <li>
                   <svg className={styles.contactIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -185,7 +185,7 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className={styles.bottomBar}>
             <div className={styles.copyright}>
-              Copyright © {new Date().getFullYear()} Supreme Odontologia. Todos os direitos reservados.
+              Copyright © {new Date().getFullYear()} Aura Odontologia. Todos os direitos reservados.
             </div>
             <div className={styles.legalLinks}>
               <a href="/politica-de-privacidade">Política de Privacidade</a>

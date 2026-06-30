@@ -122,7 +122,7 @@ export function FormContato() {
 
     // Build WhatsApp message
     const msg = encodeURIComponent(
-      `Olá! Vim pelo site da Supreme Odontologia.\n\n` +
+      `Olá! Vim pelo site da Aura Odontologia.\n\n` +
       `Nome: ${nome.trim()}\n` +
       `Telefone: ${telefone.trim()}\n` +
       `Interesse: ${servico}\n` +
@@ -163,7 +163,7 @@ export function FormContato() {
               <span className={styles.icon}>✓</span>
               <div>
                 <strong>Estacionamento disponível</strong>
-                <p>Fácil acesso e conveniência no coração do Pagani.</p>
+                <p>Fácil acesso e conveniência no coração da cidade.</p>
               </div>
             </li>
             <li className={styles.benefitItem}>

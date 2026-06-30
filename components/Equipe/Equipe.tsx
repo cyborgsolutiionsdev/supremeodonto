@@ -14,12 +14,12 @@ const unifiedLead = {
   cargo: 'Dentistas / Sócios-Fundadores',
   cro: 'CRO-SC 12345',
   imagem: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1200&auto=format&fit=crop',
-  instagram: '@supremeodontologia.demo',
+  instagram: '@auraodontologia.demo',
   whatsapp: 'https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20os%20Dr.%20Roberto%20e%20Dr.%20Carlos%20Eduardo.',
   bios: [
-    'A Supreme Odontologia nasceu de um sonho compartilhado desde a faculdade pelos doutores Roberto Silva Santos e Carlos Eduardo Costa: criar uma clínica de alto padrão focada no bem-estar real das pessoas, onde o atendimento fosse leve, humano e transparente.',
+    'A Aura Odontologia nasceu de um sonho compartilhado desde a faculdade pelos doutores Roberto Silva Santos e Carlos Eduardo Costa: criar uma clínica de alto padrão focada no bem-estar real das pessoas, onde o atendimento fosse leve, humano e transparente.',
     'Unindo suas especialidades em estética avançada, reabilitação oral e ortodontia moderna, os doutores integram sensibilidade clínica e tecnologia digital de ponta (como o scanner 3D e raio-x digital) para planejar e executar sorrisos com precisão e máximo conforto.',
-    'Na Supreme, cada etapa do seu tratamento é planejada e executada diretamente pelos fundadores, garantindo proximidade, segurança e a certeza de que você nunca estará sozinho na sua jornada de transformação.'
+    'Na Aura, cada etapa do seu tratamento é planejada e executada diretamente pelos fundadores, garantindo proximidade, segurança e a certeza de que você nunca estará sozinho na sua jornada de transformação.'
   ]
 };
 
@@ -202,7 +202,7 @@ export function Equipe() {
                   <span className={styles.supportRole}>{member.cargo}</span>
                   <span className={styles.supportDetail}>{member.detalhe}</span>
                   <a
-                    href="https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20um%20horário na Supreme."
+                    href="https://wa.me/5548991190203?text=Olá!%20Gostaria%20de%20agendar%20um%20horário na Aura."
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.supportLink}
